@@ -5,20 +5,19 @@ import './template.css';
 
 
 
-export default function Template() {
+export default function Template(props) {
+    console.log(props.name);
     const hotel = {
         name: "ABC",
         info: ['wifi', 'parking', 'breakfast']
     };
-  const [c, setC]= useState(0);
  return(
  <div className="frame3">
      <div className="icon">
          <div className="image"></div>
-         <h3>Hotel: {hotel.name}</h3>
+         <h3>Hotel: {props.name}</h3>
          <ul className="hotelinfo">
             {hotel.info.map((item) => <li> {item}  </li>)}
-
          </ul>
 
          <div className="btn">
