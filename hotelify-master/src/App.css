@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+html{
+  background:#676DE6;
+}
+  .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
