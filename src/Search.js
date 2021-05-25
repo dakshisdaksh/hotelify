@@ -1,14 +1,14 @@
 import { useState } from "react";
 import { ReactComponent as Star } from "./assets/-favourite-star.svg";
 import "./search.css";
+import Form from "./Form";
 
 export default function Search() {
   const [star, setStar] = useState(0);
   console.log(star);
   return (
     <div className="searchbar">
-      <div className="progress">
-      </div>
+      <Form/>
       <div className="grey">
         {/* <h3>Stars selected: {star}</h3> */}
         <h3> Reviews </h3>

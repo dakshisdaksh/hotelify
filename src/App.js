@@ -9,7 +9,6 @@ const renderPost = async () => {
   let uri = "http://localhost:5000/hotel";
   const res = await fetch(uri);
   const list = await res.json();
-
   const array2= list.map(function(x){
     var dr= "dist_rail";
     var da= "dist_air";
@@ -25,7 +24,6 @@ function App() {
     <div className="App">
       <header className="App-header">
        <Search />
-        <Form/>
         </header>
         <div className="row">
         <Template name="Goa"/>
