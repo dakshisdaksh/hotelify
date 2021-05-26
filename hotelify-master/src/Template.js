@@ -20,10 +20,9 @@ export default function Template(props) {
             {hotel.info.map((item) => <li> {item}  </li>)}
          </ul>
 
-         <div className="btn">
-            <p className="btntext"> Book Now </p>
-         </div>
+         <a href="#" class="btn btn-outline-light" target="_blank">BOOK NOW</a>
      </div>
  </div>
+
  );
  }

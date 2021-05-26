@@ -1,23 +1,24 @@
 .frame3 {
   margin: 5%;
   position: relative;
-  padding: 10px;
+  
   
 }
 
 .icon {
-  position: relative;
-  width: 382px;
-  height: 526px;
+ width: fit-content;
+  width:275px;
+  height: 450px;
   left: calc(50% - 382px / 2);
   top: calc(50% - 526px / 2);
   
 
+  padding: 20px;
   background: #0000ff;
   border: 2px solid #ffffff;
   box-sizing: border-box;
   box-shadow: 0px 500px 500px rgba(0, 0, 0, 0.25);
-  border-radius: 100px;
+  border-radius: 75px;
 }
 
 h3 {
@@ -47,7 +48,7 @@ h3 {
   font-weight: 2px;
   font-size: 28px;
   line-height: 28px;
-  color: 000000;
+  color: #000000;
 }
 
 .btn {
@@ -60,22 +61,18 @@ h3 {
        
   display: flex;
   justify-content: center;
-  align-items: center;
+  top: 110px;
  
-  position: absolute;
-  width: 168px;
-  height: 44px;
-  left: 90px;
-  top: 449px;
-  background: #000;
+  position: relative;
+  
 }
 
-.btntext {
+/*.btntext {
   position: static;
-  /* width: 124px;
+  /width: 124px;
 height: 28px;
 left: 22px;
-top: 8px; */
+top: 8px; 
   font-family: Roboto;
   font-style: normal;
   font-weight: 600;
@@ -88,7 +85,9 @@ top: 8px; */
   order: 0;
   flex-grow: 0;
   margin: 0px 10px;
-}
+}*/
+
+
 
 .image {
   position: relative;

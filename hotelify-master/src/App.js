@@ -4,6 +4,8 @@ import Template from "./Template";
 import Search from "./Search";
 import Form from "./Form";
 import {Component } from "react";
+import { InputAdornment } from "@material-ui/core";
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
 
 const renderPost = async () => {
   let uri = "http://localhost:5000/hotel";
@@ -28,9 +30,14 @@ function App() {
         <Form/>
         </header>
         <div className="row">
-        <Template name="Goa"/>
-        <Template name="Dehradun"/>
-        <Template name="Munich"/>
+          <div className="col-sm-12 col-md-6 col-lg-3 col-xl-2">
+        <Template name="Goa"/></div>
+        <div className="col-sm-12 col-md-6 col-lg-3 col-xl-2">
+        <Template name="Dehradun"/></div>
+        <div className="col-sm-12 col-md-6 col-lg-3 col-xl-2">
+        <Template name="Munich"/></div>
+        
+        
       </div>
     </div>
   );
