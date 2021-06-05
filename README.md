@@ -1,6 +1,7 @@
 # hotelify
 
-Hey, this is the frontend part of the repo. 
+
+Hey, the frontend part of the repo is in Master Branch of the Repository and the Backend is in the mail branch. 
 This isnt complete and It's basically the static cards and the form. The form has only sliders and a min rating option.
 
 How to start this?
